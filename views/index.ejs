@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <%- include ('template/head') %>
+    <title>Publicaciones Científicas ULEAM</title>
+
+    <!--Link para los estilos CSS locales-->
+    <link rel="stylesheet" href="/css/index.css"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"/>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="nav-aa" href="/">Inicio</a>
+            <a class="nav-aa" href="/articles">Publicaciones</a>
+            <a class="nav-aa" href="/login">Login</a>
+            <a class="nav-aa" href="/registro">Registrate</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Bienvenido a la Comunidad Científica de la ULEAM</h1>
+            <h2>Compartamos el Conocimiento</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Publicaciones</h2>
+                <h3 class="titulo3">Mira las distintas publicaciones hechas por nuestros estudiantes de nuestra querida Universidad.</h3>
+                <br>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="images/img1.jpeg" alt="">
+                        <div class="hover-galeria">
+                            <img src="images/icono1.png" alt="">
+                            <p>EstudiantesInformando</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="images/img2.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="images/icono1.png" alt="">
+                            <p>EstudiantesInformando</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="images/img3.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="images/icono1.png" alt="">
+                            <p>EstudiantesInformando</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="images/img4.jpeg" alt="">
+                        <div class="hover-galeria">
+                            <img src="images/icono1.png" alt="">
+                            <p>EstudiantesInformando</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="images/img5.jpeg" alt="">
+                        <div class="hover-galeria">
+                            <img src="images/icono1.png" alt="">
+                            <p>EstudiantesInformando</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="images/img6.jpeg" alt="">
+                        <div class="hover-galeria">
+                            <img src="images/icono1.png" alt="">
+                            <p>EstudiantesInformando</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="images/img7.jpeg" alt="">
+                        <div class="hover-galeria">
+                            <img src="images/icono1.png" alt="">
+                            <p>EstudiantesInformando</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="images/img8.jpeg" alt="">
+                        <div class="hover-galeria">
+                            <img src="images/icono1.png" alt="">
+                            <p>EstudiantesInformando</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="team contenedor">
+            <h2 class="titulo">Principales Editores</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="images/bm.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Jefe de Publicaciones</h4>
+                        <p>Principal editor de la mayoria de las publicaciones Científicas de la ULEAM</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <!--Inicio del FOOTER-->
+    <%- include ('template/footer') %>
+    <!--Final del FOOTER-->
+</body>
+</html>
